@@ -14,7 +14,7 @@ const Header = () => {
     <header className="header">
       <div className="header-content">
         <Link to="/" className="logo">
-          🎵 MusicStream
+          🎵 MusicSystem
         </Link>
         
         <nav className="nav">
