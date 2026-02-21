@@ -115,6 +115,9 @@ Signup/Login → Save user in localStorage → Load into AuthContext → Allow p
 
 ## 📸 Screenshots
 
+<img width="1366" height="768" alt="Screenshot (176)" src="https://github.com/user-attachments/assets/e345b8ff-f7f3-44f4-8b6d-d94e7bf044cc" />
+<img width="1366" height="768" alt="Screenshot (177)" src="https://github.com/user-attachments/assets/c3be65e2-753c-4fb8-833c-a2329b3f24cb" />
+<img width="1366" height="768" alt="Screenshot (178)" src="https://github.com/user-attachments/assets/5fa288ae-b234-42cb-845f-1363c13b8f46" />
 <img width="1366" height="768" alt="Screenshot (179)" src="https://github.com/user-attachments/assets/272df0f5-2203-41f6-ac32-40847cad7a35" />
 
 
