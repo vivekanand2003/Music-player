@@ -1,12 +1,139 @@
-# React + Vite
+# 🎵 Music Player (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive web-based music player built with **React** and **Vite**. The app includes **user authentication (signup/login)** — users must sign in before playing songs. It integrates music APIs to stream tracks with a clean UI and essential playback controls.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+* 🔐 User authentication (Signup / Login required before playback)
+* 🎵 Stream songs from music APIs (Audius / Jamendo)
+* ▶️ Play / Pause audio
+* ⏭️ Next / Previous track
+* ❤️ Like songs
+* 📚 Liked songs library
+* 🎚️ Progress bar with seek control
+* 🔊 Volume control
+* 📱 Responsive design (desktop & mobile)
+* ⚡ Fast performance with Vite
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+* **React** – UI library
+* **Vite** – Frontend build tool
+* **JavaScript (ES6+)**
+* **CSS** – Styling
+
+---
+
+## 📂 Project Structure
+
+```
+Music-player-main/
+│
+├── public/                # Static assets
+├── src/
+│   ├── components/        # UI components (player, cards, layout)
+│   ├── pages/             # App pages (Home, Login, Signup, LikedSongs, etc.)
+│   ├── context/           # Auth & Music global state
+│   ├── services/          # Music API integrations (Audius, Jamendo)
+│   ├── assets/            # Images/icons
+│   ├── App.jsx            # App routing & layout
+│   └── main.jsx           # Entry point
+│
+├── package.json
+├── vite.config.js
+└── index.html
+```
+
+````
+
+---
+
+## ▶️ Run Locally
+
+Clone the project:
+
+```bash
+git clone https://github.com/vivekanand2003/Music-player.git
+cd Music-player
+````
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start development server:
+
+```bash
+npm run dev
+```
+
+Open in browser:
+
+```
+http://localhost:5173
+```
+
+---
+
+## 📦 Build for Production
+
+```bash
+npm run build
+```
+
+Preview build:
+
+```bash
+npm run preview
+```
+
+## 🔐 Authentication & Login Storage
+
+This app uses client-side authentication. Users must sign up or log in before accessing the music player.
+
+Where login data is stored:
+
+Browser localStorage (persistent login)
+
+React AuthContext state (active session)
+
+No external database or backend authentication service is used. User credentials are stored locally in the browser for demo purposes only.
+
+Auth Flow:
+Signup/Login → Save user in localStorage → Load into AuthContext → Allow player access
+
+## 🌐 Deployment
+* Netlify - https://rccmusic.netlify.app/
+
+---
+
+## 📸 Screenshots
+
+<img width="1366" height="768" alt="Screenshot (179)" src="https://github.com/user-attachments/assets/272df0f5-2203-41f6-ac32-40847cad7a35" />
+
+
+---
+
+## ✨ Future Improvements
+
+* Playlist support
+* Shuffle & repeat modes
+* Dark / light theme
+* Online streaming support
+
+---
+
+## 👥 Team Contributions
+
+- Viveka Nand Kumar  – Frontend
+- Shantanu Acharya  - Player Logic & Support 
+- Shreya Sen        – Authentication  
+- Pankaj Kumar      – Music API Integration  
+- Usha Das          – UI/UX & Styling  
+- Subhajit Bera     – Documentation 
